@@ -1,0 +1,21 @@
+{
+  "name": "DoughnutJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Huang Qi",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "glsl-shader-loader": "^0.1.6",
+    "node-static": "^0.7.11"
+  },
+  "dependencies": {
+  }
+}
