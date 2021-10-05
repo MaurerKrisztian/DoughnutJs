@@ -1,11 +1,11 @@
-mk-card .card {
+dou-card .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
-mk-card .card:hover {
+dou-card .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -14,7 +14,7 @@ mk-card .container {
     padding: 2px 16px;
 }
 
-mk-card .card {
+dou-card .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
@@ -22,6 +22,6 @@ mk-card .card {
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
-mk-card img {
+dou-card img {
     border-radius: 5px 5px 0 0;
 }
